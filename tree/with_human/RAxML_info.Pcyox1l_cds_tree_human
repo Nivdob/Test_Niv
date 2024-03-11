@@ -1,0 +1,72 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.10 released by Alexandros Stamatakis on March 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 240 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.18%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 240
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -s C:\Users\nivdo\Documents\Cavos\Pcyox1l_refseq_transcript_named_aligned_cds_plus_human_phyllip.fasta -n Pcyox1l_cds_tree_human -m GTRGAMMA -p 12345 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.196 0.309 0.277 0.218 
+
+Inference[0]: Time 0.203611 GAMMA-based likelihood -5034.094324, best rearrangement setting 5
+alpha[0]: 0.263481 rates[0] ac ag at cg ct gt: 1.451708 8.035181 1.033524 1.171397 7.989093 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5034.093624 tree written to file C:\Users\nivdo\Downloads\standard-RAxML-master\standard-RAxML-master\WindowsExecutables_v8.2.10\RAxML_result.Pcyox1l_cds_tree_human
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5034.093624 .... 
+
+Final GAMMA-based Score of best tree -5034.093624
+
+Program execution info written to C:\Users\nivdo\Downloads\standard-RAxML-master\standard-RAxML-master\WindowsExecutables_v8.2.10\RAxML_info.Pcyox1l_cds_tree_human
+Best-scoring ML tree written to: C:\Users\nivdo\Downloads\standard-RAxML-master\standard-RAxML-master\WindowsExecutables_v8.2.10\RAxML_bestTree.Pcyox1l_cds_tree_human
+
+Overall execution time: 0.279026 secs or 0.000078 hours or 0.000003 days
+
